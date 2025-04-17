@@ -1,0 +1,91 @@
+
+body{
+ margin: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh; 
+ background: linear-gradient(rgb(255, 255, 255),rgb(50, 49, 49)); 
+ background: url(bg4.jpg) no-repeat; 
+ background-size: cover;
+ background-position: center;
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(31, 31, 31);
+    border-radius: 15px;
+    width: 400px;
+    overflow: hidden;
+}
+#display{
+    width: 330px;
+    padding: 12px;
+    font-size: 3rem;
+    text-align: right;
+    border: 5px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(116, 115, 115);
+    box-shadow: 3px 3px 3px rgb(85, 75, 75);  
+}
+.h{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 1.3rem;
+}
+.h h3{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.display1{
+    width: 360px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(216, 216, 216);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+    background-color: black;
+}
+button{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(57, 56, 56);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 2px 3px  rgb(85, 75, 75);  
+}
+button:hover{
+    background-color: rgb(121, 117, 117);
+}
+button:active{
+    background-color: rgb(121, 117, 117);
+   
+}
+.operator-btn{
+    background-color: rgb(6, 118, 38);
+    text-align: center;
+}
+.operator-btn:hover{
+    background-color: rgb(61, 200, 89);
+}
+.operator-btns{
+    background-color: rgb(174, 1, 1);
+    font-size: 2.2rem;
+}
+.operator-btns:hover{
+    background-color: rgb(214, 45, 47);
+}
