@@ -89,7 +89,7 @@ button:active{
     background-color: rgb(214, 45, 47);
 }
  
-@media(max-width:600px) {
+@media(max-width:700px) {
     body{
         background: none;
     }
