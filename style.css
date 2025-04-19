@@ -5,8 +5,7 @@ body{
  justify-content: center;
  align-items: center;
  height: 100vh; 
- background: linear-gradient(rgb(255, 255, 255),rgb(50, 49, 49)); 
- background: url(bg4.jpg) no-repeat; 
+ background: url(obg.png); 
  background-size: cover;
  background-position: center;
 }
@@ -66,7 +65,7 @@ button{
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 3px 2px 3px  rgb(85, 75, 75);  
+    box-shadow: 4px 3px 4px  rgb(85, 75, 75);  
 }
 button:hover{
     background-color: rgb(121, 117, 117);
