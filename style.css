@@ -4,6 +4,7 @@ body{
  display: flex;
  justify-content: center;
  align-items: center;
+ text-align: center;
  height: 100vh; 
  background: url(obg.png); 
  background-size: cover;
@@ -91,6 +92,6 @@ button:active{
  
 @media(max-width:700px) {
     body{
-        background: none;
+        background-image: none;
     }
 }
